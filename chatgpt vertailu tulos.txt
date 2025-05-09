@@ -1,0 +1,44 @@
+PS C:\HAMK Univercity\AI APIs and Standalone AI Applications\Assignments\week_7\assig_15> python .\ebay_scraper.py
+Syötä eBay-tuotelinkkejä (tyhjä rivinvaihto lopettaa):
+Linkki: https://www.ebay.com/itm/352542252174
+[INIT].... → Crawl4AI 0.6.2
+[FETCH]... ↓ https://www.ebay.com/itm/352542252174                                                                | ✓ | ⏱: 3.77s
+[SCRAPE].. ◆ https://www.ebay.com/itm/352542252174                                                                | ✓ | ⏱: 0.43s
+[COMPLETE] ● https://www.ebay.com/itm/352542252174                                                                | ✓ | ⏱: 4.20s
+⚠️ Ei löytynyt itemprop='price' - haetaan manuaalisesti...
+🔍 Löydetty hintateksti: EUR 104.69
+C:\HAMK Univercity\AI APIs and Standalone AI Applications\Assignments\week_7\assig_15\ebay_scraper.py:71: LangChainDeprecationWarning: The class `ChatOpenAI` was deprecated in LangChain 0.0.10 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-openai package and should be used instead. To use it run `pip install -U :class:`~langchain-openai` and import as `from :class:`~langchain_openai import ChatOpenAI``.
+  llm = ChatOpenAI(temperature=0.7, model="gpt-4")
+✅ Haettu: 1964 Chevy Impala Front Fender Head Light Lamp Aluminum Eyebrow Moldings New
+Linkki: https://www.ebay.com/itm/146551619524?
+[INIT].... → Crawl4AI 0.6.2
+[FETCH]... ↓ https://www.ebay.com/itm/146551619524?                                                               | ✓ | ⏱: 4.33s
+[SCRAPE].. ◆ https://www.ebay.com/itm/146551619524?                                                               | ✓ | ⏱: 0.25s
+[COMPLETE] ● https://www.ebay.com/itm/146551619524?                                                               | ✓ | ⏱: 4.59s
+⚠️ Ei löytynyt itemprop='price' - haetaan manuaalisesti...
+🔍 Löydetty hintateksti: EUR 90.91
+✅ Haettu: NOS OEM GM 1964 Chevrolet Impala Front Fender Extension R Moulding Trim Chevy SS
+Linkki: https://www.ebay.com/itm/404788826623
+[INIT].... → Crawl4AI 0.6.2
+[FETCH]... ↓ https://www.ebay.com/itm/404788826623                                                                | ✓ | ⏱: 3.57s
+[SCRAPE].. ◆ https://www.ebay.com/itm/404788826623                                                                | ✓ | ⏱: 0.22s
+[COMPLETE] ● https://www.ebay.com/itm/404788826623                                                                | ✓ | ⏱: 3.79s
+⚠️ Ei löytynyt itemprop='price' - haetaan manuaalisesti...
+🔍 Löydetty hintateksti: EUR 49.92
+✅ Haettu: NOS OEM GM 1964 Chevrolet Impala SS Quarter Extension Trim LH Chevy
+Linkki:
+
+💾 Tallennettu tiedostoon tuotteet.json
+
+📊 Vertailu GPT-4:n avulla:
+
+Kaikki kolme tuotetta ovat korkealaatuisia ja sopivat erityisesti 1964 Chevy Impala -autoon. Ne kaikki ovat valmistettu kestämään aikaa ja käyttöä, mikä on tärkeä seikka autonosissa. Kuitenkin hinta eroaa merkittävästi tuotteiden välillä.
+
+"NOS OEM GM 1964 Chevrolet Impala SS Quarter Extension Trim LH Chevy" -koristeosa on edullisin vaihtoehto hintaan 49,92 euroa. Tämä tuote on uusi, mutta se on varastoitu alkuperäispakkauksessaan (New Old Stock, NOS), joten voit olla varma sen autenttisuudesta ja laadusta.
+
+"NOS OEM GM 1964 Chevrolet Impala Front Fender Extension R Moulding Trim Chevy SS" -tuote on kalliimpi, hinta 90,91 euroa, mutta se on huippulaadukas ja tarkasti valmistettu korostamaan Chevy SS:n tyylikkäitä yksityiskohtia.
+
+"1964 Chevy Impala Front Fender Head Light Lamp Aluminum Eyebrow Moldings New" on kallein vaihtoehto, hinta 104,69 euroa. Tämä tuote on valmistettu kestävästä, korkealaatuisesta alumiinista, joka kestää aikaa ja käyttöä. Se ei ainoastaan paranna autosi ulkonäköä, vaan myös suojaa ajovaloja mahdollisilta vaurioilta.
+
+Koska tuotteilla ei ole vielä arvosteluja, on vaikea tehdä vertailua niiden käyttäjäkokemuksen perusteella. Kaikissa tuotteissa on kuitenkin erinomainen hinta-laatusuhde. Jos hinta on ratkaiseva tekijä, suosittelen valitsemaan edullisimman, eli "NOS OEM GM 1964 Chevrolet Impala SS Quarter Extension Trim LH Chevy" -tuotteen. Jos haluat parasta laatua ja olet valmis maksamaan siitä, niin "1964 Chevy Impala Front Fender Head Light Lamp Aluminum Eyebrow Moldings New" voisi olla paras vaihtoehto.
+PS C:\HAMK Univercity\AI APIs and Standalone AI Applications\Assignments\week_7\assig_15>
